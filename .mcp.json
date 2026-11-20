@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skillshop": {
+      "type": "http",
+      "url": "https://skillshop.duckdns.org/mcp"
+    }
+  }
+}

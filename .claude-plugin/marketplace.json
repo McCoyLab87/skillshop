@@ -1,0 +1,14 @@
+{
+  "name": "skillshop",
+  "owner": {
+    "name": "McCoyLab87"
+  },
+  "description": "Expert skills plus server-side checks for grant writing, home labs and AI agents",
+  "plugins": [
+    {
+      "name": "skillshop",
+      "source": "./",
+      "description": "Expert skills plus server-side checks for grant writing, home labs and AI agents"
+    }
+  ]
+}
