@@ -1,6 +1,7 @@
 ---
 name: homelab-planning
-description: Plan a home lab or self-hosting setup from goals, not gear - what to run, on what hardware, with what power, noise, network and budget limits, separating what the person has from what they need. Use when someone wants to start, expand or rebuild a home lab, home server, NAS or self-hosted services.
+title: Plan Your First Home Server
+description: Figure out what to host, what gear you need, and what you can skip.
 tier: free
 ---
 

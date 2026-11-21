@@ -1,6 +1,7 @@
 ---
 name: requirements-clarifier
-description: Turn a vague project request into testable acceptance criteria
+title: Turn "Build Me an App" Into a Plan
+description: Turn a rough idea into a clear list of behaviors you can test.
 tier: free
 ---
 

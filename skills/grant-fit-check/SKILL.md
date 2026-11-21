@@ -1,6 +1,7 @@
 ---
 name: grant-fit-check
-description: Decide whether a nonprofit should apply for a specific grant before anyone writes a word. Use when someone shares a funding opportunity, RFP, NOFO or foundation guideline and asks whether to apply, or asks which of several grants to pursue.
+title: Is This Grant Worth Applying For?
+description: Check the rules and odds of a good fit before spending hours on an application.
 tier: free
 ---
 

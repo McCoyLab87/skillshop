@@ -1,6 +1,7 @@
 ---
 name: honest-status
-description: Report work status without overstating it. Use whenever you summarize progress, finish a task, or tell a person something is done, sent, fixed, deployed or verified.
+title: Tell Me What's Actually Done
+description: Turn messy progress notes into a clear update with proof, blockers, and next steps.
 tier: free
 ---
 

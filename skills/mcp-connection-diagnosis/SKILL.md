@@ -1,6 +1,7 @@
 ---
 name: mcp-connection-diagnosis
-description: Diagnose why an MCP client cannot connect to a server
+title: Why Won't My AI Tool Connect?
+description: Find out whether the connection fails at setup, sign-in, or tool discovery.
 tier: free
 ---
 

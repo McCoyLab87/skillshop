@@ -1,6 +1,7 @@
 ---
 name: markdown-link-migration
-description: Move Markdown documentation without breaking internal links
+title: Move Your Docs Without Breaking Links
+description: Move Markdown notes and guides while keeping links, images, and headings working.
 tier: free
 ---
 

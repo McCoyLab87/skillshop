@@ -1,6 +1,7 @@
 ---
 name: decision-brief
-description: Turn a choice with competing options into a decision brief
+title: Make the Call
+description: Compare your options and see which trade-offs matter before you decide.
 tier: free
 ---
 

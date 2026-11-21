@@ -23,58 +23,58 @@ Other MCP clients: add a server with URL `https://skillshop.duckdns.org/mcp`. Wi
 
 ## Free skills (in this repo)
 
-- **decision-brief**: Turn a choice with competing options into a decision brief
-- **grant-fit-check**: Decide whether a nonprofit should apply for a specific grant before anyone writes a word. Use when someone shares a funding opportunity, RFP, NOFO or foundation guideline and asks whether to apply, or asks which of several grants to pursue.
-- **homelab-planning**: Plan a home lab or self-hosting setup from goals, not gear - what to run, on what hardware, with what power, noise, network and budget limits, separating what the person has from what they need. Use when someone wants to start, expand or rebuild a home lab, home server, NAS or self-hosted services.
-- **honest-status**: Report work status without overstating it. Use whenever you summarize progress, finish a task, or tell a person something is done, sent, fixed, deployed or verified.
-- **markdown-frontmatter-normalization**: Normalize Markdown metadata while preserving document bodies
-- **markdown-link-migration**: Move Markdown documentation without breaking internal links
-- **mcp-connection-diagnosis**: Diagnose why an MCP client cannot connect to a server
-- **meeting-to-actions**: Extract decisions and action items from meeting notes
-- **requirements-clarifier**: Turn a vague project request into testable acceptance criteria
-- **research-source-log**: Build a traceable evidence log for a research brief
-- **spreadsheet-reconciliation**: Reconcile two spreadsheet exports and explain unmatched rows
+- **Make the Call** — Compare your options and see which trade-offs matter before you decide.
+- **Is This Grant Worth Applying For?** — Check the rules and odds of a good fit before spending hours on an application.
+- **Plan Your First Home Server** — Figure out what to host, what gear you need, and what you can skip.
+- **Tell Me What's Actually Done** — Turn messy progress notes into a clear update with proof, blockers, and next steps.
+- **Clean Up Your Markdown File Details** — Make the titles, tags, and other details at the top of your files consistent.
+- **Move Your Docs Without Breaking Links** — Move Markdown notes and guides while keeping links, images, and headings working.
+- **Why Won't My AI Tool Connect?** — Find out whether the connection fails at setup, sign-in, or tool discovery.
+- **Turn Meeting Notes Into Next Steps** — Pull out decisions, who owns each task, and what's due when.
+- **Turn "Build Me an App" Into a Plan** — Turn a rough idea into a clear list of behaviors you can test.
+- **Show Me the Receipts** — Track the source behind each claim so readers can verify it.
+- **Find What Doesn't Match** — Compare two spreadsheets and explain missing rows, duplicates, and differences.
 
 ## Paid packs
 
 ### agent-ops
-- **agent-build-from-workflow**: Turn a bounded human workflow into a runnable agent specification
-- **agent-eval-suite**: Build a regression evaluation set for an AI agent workflow
-- **agent-handoff**: Coordinate work between multiple AI agents and humans without lost writes, double ownership or false "done" claims. Use when more than one agent or person touches the same task list, ledger or deliverable, or when handing work to another agent.
-- **agent-incident-review**: Write an evidence-based review of an AI agent workflow failure
-- **agent-release-checklist**: Prepare a controlled rollout for an AI agent workflow update
-- **agent-tool-trace-triage**: Find the first confirmed failure in an AI agent tool trace
-- **connector-access-parity**: Verify that a connector preserves source access controls
-- **connector-incremental-sync**: Build a connector that resumes incremental ingestion safely
-- **harness-resume-checkpoints**: Design agent harness checkpoints that survive interrupted runs
-- **harness-trace-replay**: Build a deterministic replay harness for agent tool calls
-- **mcp-server-compatibility**: Test MCP server compatibility across clients and protocol versions
-- **mcp-tool-contract-review**: Review an MCP tool contract for validation, permissions and retry behavior
-- **plugin-package-validation**: Validate an agent plugin from a clean install through removal
-- **rag-citation-evaluation**: Evaluate retrieval and citation quality separately in a RAG system
-- **rag-file-ingestion**: Build a file ingestion pipeline that preserves source provenance
+- **Build Your First AI Agent** — Turn a repeatable task into an AI helper with tools, clear stopping points, and a test run.
+- **Make Sure Your AI Still Works** — Build repeatable tests that catch when a prompt, model, or tool change breaks something.
+- **Hand Off Without Losing the Plot** — Give the next person or AI the context it needs to pick up the work without repeating it.
+- **Figure Out What Went Wrong** — Use the AI's activity log to explain a failure and decide what to fix.
+- **Ship Your AI Update Safely** — Decide what to test before people use the update and when to roll it back.
+- **Find the First Thing That Broke** — Follow the AI's tool calls to find the earliest confirmed failure.
+- **Keep Private Files Private** — Check that people can only find files through AI that they already have permission to open.
+- **Sync Without Missing Files** — Build a connection that picks up where it left off without losing or duplicating records.
+- **Help Your AI Pick Up Where It Left Off** — Save enough progress to recover after a crash without repeating completed actions.
+- **Replay an AI Run Without Calling Live Tools** — Rerun recorded tool calls with test data and see where the new run behaves differently.
+- **Will My AI Tool Work in Other Apps?** — Test whether your tool connects and behaves consistently across AI apps.
+- **Make Your AI Tools Easier to Use** — Check whether a tool's instructions and inputs match what it actually does.
+- **Will My Plugin Install Cleanly?** — Try installation, updates, and removal from a fresh profile before shipping.
+- **Check That Your AI's Sources Back It Up** — Test whether the AI finds the right passages and whether they support its answers.
+- **Make Your AI Find Answers in Your Files** — Prepare PDFs, notes, and other documents for search while keeping track of where each passage came from.
 - check `audit_handoff: one owner, revisioned writes, verified delivery`
 - check `audit_status_report: completion claims without evidence, hedges, vague blockers`
 
 ### grants
-- **grant-budget**: Build or review a nonprofit grant budget and budget justification that adds up, follows funder rules, and matches the narrative - personnel and fringe, direct costs, indirect rates, match and cost per participant. Use when preparing, checking or explaining any grant budget.
-- **grant-budget-revision**: Prepare a grant budget revision with a traceable rationale
-- **grant-compliance-matrix**: Map grant application requirements to evidence and owners
-- **grant-evaluation-plan**: Design an evaluation plan for a grant-funded program
-- **grant-logic-model**: Build a grant logic model linking activities to measurable outcomes
-- **grant-proposal**: Write or revise a nonprofit grant proposal narrative that reviewers can score high - need statement, goals and SMART objectives, program design, logic model, evaluation, organizational capacity and sustainability. Use when drafting, tightening or reviewing any grant narrative, letter of inquiry or foundation application.
-- **grant-reporting-calendar**: Turn an award agreement into a reporting and deliverables calendar
+- **Make Your Grant Budget Add Up** — Build or review a grant budget and explain where every dollar goes.
+- **Rewrite the Budget Without Losing Track** — Show what changed, why it changed, and what the funder needs to approve.
+- **Catch Missing Grant Requirements** — Turn the funder's instructions into a checklist with proof and owners.
+- **Prove Your Program Is Working** — Decide what to measure, how to collect it, and when to report it.
+- **Show How Your Program Helps** — Connect what your program does to the changes you expect to see.
+- **Write a Grant Proposal That Holds Up** — Turn your project notes and the funder's requirements into a proposal reviewers can follow.
+- **Never Miss a Grant Deadline** — Turn an award agreement into a calendar of reports and deadlines.
 - check `audit_grant_proposal: required sections, word limits, unsourced need data, non-SMART objectives, outputs posing as outcomes, request mismatch`
 - check `audit_grant_budget: totals, salary x FTE math, fringe, indirect cap and base, match, missing justifications`
 
 ### homelab
-- **homelab-maintenance-window**: Prepare and verify a home-lab maintenance window
-- **homelab-monitoring-plan**: Create health checks and alerts for self-hosted services
-- **homelab-restore-drill**: Run a non-destructive restore drill for a home-lab service
-- **homelab-security**: Secure a home lab - remote access without open ports, network segmentation with VLANs, firewall rules, updates, secrets, and a 3-2-1 backup plan with tested restores. Use when exposing any self-hosted service, setting up remote access, adding IoT devices, planning backups, or reviewing a home network for risk.
-- **homelab-service-migration**: Plan a home-lab service migration with a rollback point
-- **homelab-services**: Deploy and run self-hosted services reliably with Docker Compose - pinned images, persistent data, secrets, reverse proxy, health checks, restart policies, updates and recovery. Use when writing or reviewing a docker-compose file, adding a service to a home server, or fixing a service that loses data or will not restart.
-- **homelab-storage-capacity**: Forecast home-lab capacity from measured usage and growth
+- **Update Your Server Without Guesswork** — Plan updates in a safe order and verify that your apps and data still work.
+- **Know When Your App Goes Down** — Set up checks that catch real outages and tell you what to inspect first.
+- **Can You Actually Restore That Backup?** — Bring back a copy in a test space and see if it still works.
+- **Lock Down Your Home Server** — Review who can reach your server and fix risky settings before you share access.
+- **Move Your App Without Losing Data** — Plan the switch to a new server, test it, and keep a way back.
+- **Get Your Apps Running at Home** — Set up apps on your own server and make sure they restart cleanly.
+- **Know When You'll Run Out of Space** — Use real storage measurements to estimate when you'll need more room.
 - check `audit_compose: exposed databases and admin panels, plaintext secrets, Docker socket, privileged containers, unpinned images, missing volumes`
 - check `audit_backup_plan: 3-2-1, RAID/sync not counted, offsite encryption, tested restores`
 

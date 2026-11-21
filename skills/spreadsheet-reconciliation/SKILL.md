@@ -1,6 +1,7 @@
 ---
 name: spreadsheet-reconciliation
-description: Reconcile two spreadsheet exports and explain unmatched rows
+title: Find What Doesn't Match
+description: Compare two spreadsheets and explain missing rows, duplicates, and differences.
 tier: free
 ---
 

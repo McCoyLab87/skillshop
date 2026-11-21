@@ -1,6 +1,7 @@
 ---
 name: meeting-to-actions
-description: Extract decisions and action items from meeting notes
+title: Turn Meeting Notes Into Next Steps
+description: Pull out decisions, who owns each task, and what's due when.
 tier: free
 ---
 

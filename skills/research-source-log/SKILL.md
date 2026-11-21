@@ -1,6 +1,7 @@
 ---
 name: research-source-log
-description: Build a traceable evidence log for a research brief
+title: Show Me the Receipts
+description: Track the source behind each claim so readers can verify it.
 tier: free
 ---
 

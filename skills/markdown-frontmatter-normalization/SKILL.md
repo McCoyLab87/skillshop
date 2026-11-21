@@ -1,6 +1,7 @@
 ---
 name: markdown-frontmatter-normalization
-description: Normalize Markdown metadata while preserving document bodies
+title: Clean Up Your Markdown File Details
+description: Make the titles, tags, and other details at the top of your files consistent.
 tier: free
 ---
 
